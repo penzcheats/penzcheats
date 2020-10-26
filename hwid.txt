@@ -1,1 +1,18 @@
 503316480, 122133443
+
+
+if (AimbotS == 1)
+		{
+			aim.aimAssist();
+		}
+	}
+		 if (AimbotS == 2)
+		{
+			if (GetAsyncKeyState(AimbotKey) & KEY_DOWN)
+			{
+				aim.aimBot();
+			}
+		}
+
+		Sleep(3);
+	}
